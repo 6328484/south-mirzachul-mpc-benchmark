@@ -1,0 +1,13 @@
+ppo_s3 ep 0 val -72.58 best -72.58  6 s
+ppo_s3 ep 40 val -75.17 best -72.58 std 0.135 57 s
+ppo_s3 ep 80 val -76.96 best -72.58 std 0.135 106 s
+ppo_s3 ep 120 val -78.13 best -72.58 std 0.135 171 s
+ppo_s3 ep 160 val -78.36 best -72.58 std 0.135 240 s
+ppo_s3 ep 200 val -81.40 best -72.58 std 0.136 309 s
+ppo_s3 ep 240 val -79.39 best -72.58 std 0.137 379 s
+ppo_s3 ep 280 val -77.20 best -72.58 std 0.137 443 s
+ppo_s3 ep 320 val -81.52 best -72.58 std 0.137 510 s
+ppo_s3 ep 360 val -85.08 best -72.58 std 0.136 579 s
+ppo_s3 ep 400 val -84.75 best -72.58 std 0.136 647 s
+ppo_s3 ep 440 val -82.87 best -72.58 std 0.136 712 s
+ppo_s3 ep 480 val -83.11 best -72.58 std 0.136 776 s

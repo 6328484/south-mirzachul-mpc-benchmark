@@ -1,0 +1,7 @@
+/root/afc/src/gated_model.py:247: MatrixRankWarning: Matrix is exactly singular
+  d = spsolve(J, -r)
+/root/afc/src/gated_model.py:247: MatrixRankWarning: Matrix is exactly singular
+  d = spsolve(J, -r)
+/root/afc/src/gated_model.py:247: MatrixRankWarning: Matrix is exactly singular
+  d = spsolve(J, -r)
+[(6.0, 0.35, False, -145.16148897631012, 1), (6.0, 0.5, False, -157.86113797749658, 1), (9.0, 0.8, False, -168.67999040690097, 1), (6.0, 0.2, False, -169.96095323716915, 1), (6.0, 0.8, False, -174.51124719287822, 1)]

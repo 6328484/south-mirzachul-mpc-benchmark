@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article given under preferred-citation."
+type: software
+title: "MPC with state estimation versus PI and deep reinforcement learning for unsteady flow regulation in the South Mirzachul main canal: code, data and results"
+abstract: >-
+  Saint-Venant model of the 123.7-km South Mirzachul main canal (Uzbekistan) built from its
+  passport, offset-free model predictive control with a Kalman filter that uses only SCADA
+  measurements, a full-state MPC, a tuned PI, and PPO/TD3 agents (pure and residual) implemented
+  in NumPy, with all trained agents, evaluation results and figures. Code: MIT licence; data,
+  results and figures: CC BY 4.0 (see LICENSE-DATA.md).
+version: "0.1.0"
+license: MIT
+repository-code: "https://github.com/6328484/south-mirzachul-mpc-benchmark"
+authors:
+  - family-names: Abdujabborov
+    given-names: Zafar A.
+    orcid: "https://orcid.org/0009-0000-3938-7562"
+    affiliation: "National University of Uzbekistan named after Mirzo Ulugbek, Tashkent, Uzbekistan"
+  - family-names: Seytov
+    given-names: Aybek J.
+    orcid: "https://orcid.org/0009-0002-8904-5178"
+    affiliation: "University of World Economy and Diplomacy, Tashkent, Uzbekistan"
+  - family-names: Choriyorov
+    given-names: Nurbek Q.
+    orcid: "https://orcid.org/0000-0001-7289-0303"
+    affiliation: "Research Institute of Irrigation and Water Problems; University of World Economy and Diplomacy, Tashkent, Uzbekistan"
+  - family-names: Esonturdiyev
+    given-names: Mamamatqobil N.
+    orcid: "https://orcid.org/0000-0003-4083-7019"
+    affiliation: "University of World Economy and Diplomacy, Tashkent, Uzbekistan"
+keywords:
+  - canal automation
+  - model predictive control
+  - Kalman filter
+  - deep reinforcement learning
+  - Saint-Venant equations
+preferred-citation:
+  type: article
+  title: "Offset-free model predictive control of unsteady flow in a large irrigation main canal using SCADA measurements: a benchmark against PI and deep reinforcement learning"
+  status: preprint
+  year: 2026
+  authors:
+    - family-names: Abdujabborov
+      given-names: Zafar A.
+    - family-names: Seytov
+      given-names: Aybek J.
+    - family-names: Choriyorov
+      given-names: Nurbek Q.
+    - family-names: Esonturdiyev
+      given-names: Mamamatqobil N.

@@ -1,0 +1,13 @@
+ppo_s0 ep 0 val -73.49 best -73.49  6 s
+ppo_s0 ep 40 val -71.16 best -71.16 std 0.136 69 s
+ppo_s0 ep 80 val -71.60 best -71.16 std 0.136 135 s
+ppo_s0 ep 120 val -74.49 best -71.16 std 0.136 201 s
+ppo_s0 ep 160 val -75.07 best -71.16 std 0.136 266 s
+ppo_s0 ep 200 val -75.16 best -71.16 std 0.136 331 s
+ppo_s0 ep 240 val -74.30 best -71.16 std 0.136 399 s
+ppo_s0 ep 280 val -72.18 best -71.16 std 0.137 463 s
+ppo_s0 ep 320 val -70.04 best -70.04 std 0.136 529 s
+ppo_s0 ep 360 val -71.27 best -70.04 std 0.137 593 s
+ppo_s0 ep 400 val -70.94 best -70.04 std 0.137 660 s
+ppo_s0 ep 440 val -69.00 best -69.00 std 0.137 725 s
+ppo_s0 ep 480 val -68.85 best -68.85 std 0.137 810 s

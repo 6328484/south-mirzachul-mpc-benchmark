@@ -1,0 +1,1 @@
+{"kp": 6.0, "ki": 1.0, "area_scaled": false, "mean_return": -88.73125572042755, "rule": "smallest gains whose mean training return is within 2% of the best grid point (best: kp=3, ki=4, -87.50)"}

@@ -1,0 +1,72 @@
+kind,name,km,Q_cap_m3s,spans,gate_w_m,gate_h_m,area_ha,note
+check,Head works (right + left regulators),0.000,300,6,8.0,4.45,,2 regulators x 3 spans; the passport text gives a span width of 7 m
+check,Check structure PK145 (right + left channel),14.500,400,13,4.0,4.0,,right channel 5 spans (160 m3/s) + left channel 8 spans (240 m3/s)
+check,Check structure PK400,40.000,315,8,4.0,4.0,,
+check,Check structure PK623+86,62.386,101,5,3.2,3.0,,
+check,Check structure PK746+62,74.662,78,3,3.17,3.15,,
+check,Check structure PK923+02,92.302,52,2,3.0,3.0,,
+check,Check structure PK1035+00,103.500,37,1,4.1,4.6,,
+check,Check structure PK1087+23,108.723,31,2,2.7,2.2,,
+check,Check structure PK1177+29,117.729,16,1,2.0,1.16,,
+check,Check structure PK1237+00,123.700,16,1,2.0,3.2,,canal tail
+offtake,YuR-4,14.280,2.5,2,1.2,1.06,3300,
+offtake,YuR-5,14.380,2.0,2,1.1,1.1,2650,
+offtake,Left Bayaut branch,14.500,5.0,1,2.0,2.0,6600,
+offtake,Right Bayaut branch,14.500,30.0,2,2.5,2.2,27450,not in the chainage table; 14.5 km from the passport text
+offtake,YuR-6,23.450,1.5,1,1.5,2.0,1900,
+offtake,YuR-6A,24.450,3.0,1,2.0,1.6,3900,
+offtake,YuR-7,31.611,1.8,1,1.5,2.0,2300,
+offtake,YuR-8,36.085,3.2,2,1.7,1.7,4200,
+offtake,YuR-9-1,40.000,4.4,1,1.6,1.6,8000,
+offtake,YuR-9-2,41.318,3.4,1,1.7,1.7,6200,
+offtake,YuR-9-3,46.140,3.5,1,1.7,1.7,6300,
+offtake,YuR-10,47.268,16.2,1,2.5,2.5,29500,
+offtake,YuR-10A,48.228,1.0,1,1.0,1.0,1800,
+offtake,YuR-11-1,50.118,4.2,1,2.15,2.15,7600,
+offtake,YuR-11-2,52.518,4.6,1,2.15,2.15,8300,
+offtake,YuR-12-1,57.618,3.7,1,2.15,2.15,6700,
+offtake,YuR-12-1A,57.668,1.0,1,1.0,1.0,1800,
+offtake,YuR-12-2,58.968,2.4,1,1.5,2.0,4400,
+offtake,YuR-12,59.500,1.5,1,1.5,1.5,2700,
+offtake,YuR-12-2A,61.820,1.0,1,1.0,1.0,1800,
+offtake,Central branch,62.386,164.0,3,3.2,3.0,132100,largest user
+offtake,YuR-13A,65.200,0.8,1,1.4,1.4,700,
+offtake,YuR-13B,65.500,0.3,1,1.0,1.0,260,
+offtake,YuR-13,65.790,2.5,1,1.5,1.5,2100,
+offtake,4-Kh-2,67.550,1.0,1,1.0,1.0,850,
+offtake,YuR-14,69.936,2.4,1,1.5,1.5,2050,
+offtake,YuR-14-1,70.570,0.2,1,0.7,0.7,170,
+offtake,YuR-14-1-1,70.570,0.2,1,,,170,gate size uncertain
+offtake,Kurgantepa branch,73.450,18.0,3,1.5,1.5,16600,
+offtake,YuR-15 (regulator),74.642,4.9,1,1.6,2.2,5690,
+offtake,5-Kh-2,79.500,2.0,1,1.5,1.5,2320,
+offtake,YuR-15,79.500,3.0,1,2.0,1.6,3480,
+offtake,5-U-10A,79.560,0.5,1,1.0,1.0,580,
+offtake,5-Kh-3,85.299,2.0,1,1.5,1.5,2320,
+offtake,5-U-25,85.550,0.3,1,1.0,1.0,350,
+offtake,YuR-16,89.270,5.1,2,1.5,1.5,5920,
+offtake,YuR-16-1,89.550,0.3,1,1.0,1.0,340,
+offtake,YuR-17,92.128,5.2,2,1.5,1.5,2750,
+offtake,YuR-19,92.250,0.5,2,1.0,1.0,270,
+offtake,YuR-18 (Akbulak branch),92.302,31.0,1,3.0,1.5,16500,also serves as the emergency spillway of the canal
+offtake,YuR-19-1,94.314,0.4,1,1.0,1.0,210,
+offtake,YuR-20,100.200,1.3,1,1.5,1.5,690,
+offtake,YuR-21,101.252,2.5,1,1.7,1.7,1320,
+offtake,26-U-24,102.000,0.5,1,1.1,1.5,260,
+offtake,YuR-22,103.405,2.4,1,1.7,1.7,5450,
+offtake,YuR-22a,103.475,1.2,1,1.7,1.7,2740,
+offtake,YuR-22B,103.800,2.5,1,1.7,1.7,5680,
+offtake,U-6,106.300,0.2,1,1.0,1.0,450,
+offtake,U-7,107.033,0.3,1,1.0,1.0,680,
+offtake,YuR-23,108.723,1.7,1,1.3,1.2,1100,
+offtake,YuR-24,108.723,11.0,2,2.0,1.6,7100,not in the chainage table; part of check structure PK1087+23
+offtake,YuR-24-1,109.075,0.8,2,1.3,1.2,480,
+offtake,Block 1,109.300,1.2,1,,,750,no gate
+offtake,Block 2,114.810,1.2,1,,,760,no gate
+offtake,YuR-26,114.972,1.2,1,1.5,1.5,760,
+offtake,YuR-25,115.075,4.1,1,2.0,1.6,2600,
+offtake,Yu-R-1,117.600,0.8,1,1.0,1.0,450,
+offtake,YuR-27b,117.650,2.0,2,1.5,1.5,25000,
+offtake,YuR-27,123.700,2.2,1,1.5,1.5,20600,not in the chainage table; assumed at the canal tail
+other,Emergency spillway,117.623,10.0,1,3.2,2.0,,not a delivery; not modelled
+other,Supply canal DM-1,36.930,164.4,,,,,no gate; function not stated in the passport; not modelled
