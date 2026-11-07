@@ -33,7 +33,7 @@ python tune_pi.py            # PI grid (edit KP/KI to the stage you want); final
 bash ../run_training.sh
 bash ../run_training2.sh
 python val_baselines.py
-python evaluate.py named & python evaluate.py random
+python evaluate.py named; python evaluate.py random   # one after the other: the CPU time per decision is measured during these runs
 python sensitivity.py
 python tables.py
 python figures.py
@@ -44,3 +44,5 @@ python figures.py
 - The hydraulic model is built from the canal passport only; it has not been calibrated against field data.
 - PPO and TD3 are implemented in NumPy because no deep-learning library was available in the computing environment; Stable-Baselines3 can be used to cross-check them.
 - The PI gains were selected in several grid stages (results/pi_grid_*.csv): stage 1-2 with an uncapped quadratic cost, the final stages with the capped stage cost of the manuscript.
+- A failed run (the simulation stops before 48 h) ends with a truncated trace, so its indicators are not comparable with those of a completed run. `results/tables.md` counts failed runs but leaves them out of the indicator columns (`–` when every run failed, `†` when only the surviving runs are summarised). `results/failed_runs.csv` lists the 72 failed test runs with the time at which they stopped and their return next to those of Fixed and PI.
+- The CPU times in `results/evaluation_*.json` and `results/tables.md` come from a sequential re-run on two CPU cores with no other job running (about 3 ms per decision for MPC and MPC-KF). An earlier version of these files contained times measured while the named and random evaluations ran in parallel. All other fields of the evaluation files are unchanged; a full re-run reproduces them, except for MPC-KF, whose L-BFGS-B solutions differ in the last digits between runs (largest difference in the mean depth error: 0.01 cm).
